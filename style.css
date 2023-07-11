@@ -1,0 +1,132 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  float: left;
+  margin: 0;
+}
+
+li a {
+  display: block;
+  color: #FFD600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+.test:hover {
+  background-color: #545077;
+}
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left:0;
+  
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  background-color: #615b8f;
+  font-family: Avenir, sans-serif;
+  justify-content: space-between;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.19);
+}
+
+* {
+  font-family: Avenir, sans-serif;
+  box-sizing: border-box;
+
+}
+
+#boitelogo {
+  max-width: 7%;
+}
+
+#logo {
+  width: 50%;
+}
+
+body {
+  position:absolute;
+  width: fit-content;
+  min-width: 100%; /* because the content might only be a few words */
+  box-sizing: border-box; /* because 100% + padding > 100% */
+}
+
+.class1,
+.class2,
+.class3 {
+  width: 33%;
+  float: left;
+}
+
+.titre {
+  padding-top: 25px;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  background-color: #FFD600;
+  padding: 5px;
+  font-family: Avenir, sans-serif;
+}
+
+.bloc {
+  display: block;
+  text-align: justify;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Avenir, sans-serif;
+  padding: 10px 50px;
+}
+
+#text{
+  text-align: center;
+}
+
+#bienvenue {
+  color: white;
+  display: flex;
+}
+
+#mdj {
+  width: 65%;
+  margin: auto;
+  display: block;
+}
+
+#global {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.presentation {
+  display: flex;
+  
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color:#615b8f ;
+}
+
+#num{
+  width:30%;
+  margin-left:5%;
+  margin-right:30% ;
+}
+#nous{
+  width:30%;
+}
